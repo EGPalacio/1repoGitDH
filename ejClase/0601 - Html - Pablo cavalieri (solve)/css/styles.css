@@ -1,0 +1,38 @@
+body{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+h1{
+    font-size: 37px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    line-height: 46px;
+    color: #000000;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 25px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    line-height: 38px;
+    text-transform: capitalize;
+}
+
+h3{
+    font-size: 18px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+p{
+    font-size: 18px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+img{
+    text-align: center;
+}
