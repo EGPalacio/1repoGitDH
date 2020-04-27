@@ -1,0 +1,92 @@
+@font-face{
+    font-family: 'raleway';
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+}
+@font-face{
+    font-family: 'work-sans';
+    src: url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+}
+@font-face{
+    font-family: 'open-sans';
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+}
+
+body{
+    text-transform: uppercase;
+    font-family: 'open-sans', sans-serif;
+}
+
+div.menu{
+    background-image: url(../img/emilia-music-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+section.links{
+    background-color: white;
+    background-size: cover;
+    opacity: 0.5;
+    padding-top: 1%;
+    padding-bottom:  1%;
+    padding-right: 1%;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+    font-weight: bold;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-left: solid black 1px;
+}
+
+a.end{
+    border-right: solid black 1px;
+}
+
+section.icons{
+    margin-top: 0%;
+    padding-right: 1%;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 30px;
+    margin: 0%;
+    padding: 0%;
+}
+
+p.intLinks,
+a.intLinks,
+a.playlistItems{
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+
+a.intLinks{
+    margin-left: 3%;
+    color:grey;
+}
+
+a.top{
+    text-decoration: none;
+    color: grey;
+}
+
+p.vdata{
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}

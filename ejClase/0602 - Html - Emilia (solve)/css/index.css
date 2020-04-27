@@ -1,0 +1,58 @@
+@font-face{
+    font-family: 'raleway';
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+}
+@font-face{
+    font-family: 'work-sans';
+    src: url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+}
+@font-face{
+    font-family: 'open-sans';
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+}
+
+body{
+    background-image: url(../img/emilia-home.jpg);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    font-family: 'open-sans', sans-serif;
+    text-transform: uppercase;
+}
+
+div.menu{
+    margin: 2%;
+}
+
+p.links{
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    font-size: 12px;
+}
+
+section.name{
+    width: 150px;
+    margin-top: 160px;
+    margin-left: 2%;
+    font-family: 'work-sans', sans-serif;
+    font-size: 30px;
+}
+
+section.mns{
+    margin-top: 100px;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: white;
+    opacity: 0.4;
+    font-size: 50px;
+    font-weight: 400;
+}

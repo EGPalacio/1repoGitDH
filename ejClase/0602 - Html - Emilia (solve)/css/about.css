@@ -1,0 +1,108 @@
+@font-face{
+    font-family: 'raleway';
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+}
+@font-face{
+    font-family: 'work-sans';
+    src: url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+}
+@font-face{
+    font-family: 'open-sans';
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+}
+
+body{
+    background-image: url(../img/emilia-about.jpg);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    font-family: 'open-sans', sans-serif;
+}
+
+div.menu, div.icons{
+    overflow: hidden;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+div.menu{
+    background-color: white;
+    opacity: 0.5;
+}
+
+p.links{
+    float: right;
+    clear: both;
+    padding-left: 3%;
+    padding-right: 1%;
+    text-align: right;
+}
+
+.links{
+    width: 30%;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.links a{
+    border-left: solid 1px black;
+    color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-decoration: none;
+}
+
+a.end{
+    border-right: solid 1px black;
+}
+
+div.icons{
+    clear: both;
+    padding-right: 1%;
+}
+
+i.icons{
+    width: 20%;
+    text-transform: uppercase;
+    font-size: 30%;
+}
+
+ul.icons li{
+    font-family: unset;
+    font-size: 300%;
+    padding: unset;
+}
+
+i{
+    font-family: unset;
+    font-size: 100%;
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'raleway', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    width: 30%;
+    font-size: 400%;
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+h2{
+    width: 40%;
+    font-size: 150%;
+    font-weight: 300;
+    margin-left: 2%;
+    color: lightseagreen;
+}
+
+p{
+    width: 40%;
+    font-size: 90%;
+    font-weight: 300;
+    margin-left: 2%;
+    color: lightseagreen;
+}

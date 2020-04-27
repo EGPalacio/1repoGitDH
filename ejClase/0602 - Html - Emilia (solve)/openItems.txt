@@ -1,0 +1,7 @@
+﻿About:
+======
+1. Importe los archivos de font awesome pero no puedo hacer que aparezcan los iconos en la página.
+
+Home/Index:
+===========
+1. No pude hacer que el color del texto "Twist my...." no quede impactado por la opacidad del fondo.
