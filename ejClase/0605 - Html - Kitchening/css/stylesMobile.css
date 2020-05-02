@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 body{
-    background-image: url(/images/bg-body.png);
+    background-image: url(../images/bg-body.png);
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
 }
 
 .main-header{
     text-align: center;
-    background-image: url(/images/img-banner.jpg);
-    background-size: 320px;
+    background-image: url(../images/img-banner.jpg);
+    background-size: 100vw;
     background-repeat: no-repeat;
 }
 
@@ -41,7 +41,7 @@ body{
 
 article{
     position: relative;
-    height: 20em;
+    height: 57vh;
     /* overflow: hidden; */
 }
 
@@ -80,19 +80,19 @@ div.photo-container a.zoom{
 
 h2{
     position: absolute;
-    top: 6.5em;
+    top: 28vh;
 }
 
 p{
     z-index: 30;
     position: absolute;
-    top: 12em;
+    top: 34vh;
 }
 
 a.more{
     z-index: 40;
     position: absolute;
-    top: 22em;
+    top: 49vh;
     background-color: grey;
     color: white;
     text-transform: lowercase;
