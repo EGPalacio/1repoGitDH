@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    background-image: url(../img/foto-entradas.jpg);
+    background-repeat: no-repeat;
+    background-position: 90% 22%;
+    background-size: 30%;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+body.contacto{
+    background-image: none;
+}
+
+.container-main,
+.container-form{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5%;
+    margin-bottom: 2%;
+}
+
+.header{
+    width: 100%;
+    text-transform: capitalize;
+    border-bottom: solid grey 1px;
+}
+
+.intLinks{
+    width: 20%;
+    text-transform: capitalize;
+    padding-right: 7%;
+    box-sizing: border-box;
+}
+
+.menu{
+    width: 40%;
+    border-left: solid grey 2px;
+    padding-left: 5%;
+}
+
+.intLinks ul,
+.intLinks ul li,
+.intLinks ul li a.linkref{
+    list-style: none;
+    padding: 0;
+    margin-top: 10%;
+    text-decoration: none;
+    color: black;
+}
+
+h4, p{
+    margin: 0 5%;
+    padding: 0;
+}
+
+p{
+    margin-bottom: 4%;
+}
+
+a.toTop{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: grey;
+    width: 100%;
+    background-image: url(../img/logo-web.png);
+    background-repeat: no-repeat;
+    background-size: 18%;
+    background-position: 2% center;
+    align-items: stretch;
+}
+
+.footer ul{
+    padding: 2% 5%;
+}
+
+li.footerList, a.footerList{
+    text-align: right;
+    font-weight: bold;
+    list-style: none;
+    margin: 1%;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+select,
+input{
+    margin-left: 5%;
+}
+
+label{
+    text-transform: capitalize;
+}
+
+button{
+    height: 30px;
+    width: 200px;
+    border-color: darkgoldenrod;
+    border-radius: 5%;
+    text-transform: uppercase;
+    color: darkgoldenrod;
+}
+
+button:hover{
+    background-color: darkgoldenrod;
+    color: white;
+}

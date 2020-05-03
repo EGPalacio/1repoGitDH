@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>contacto</title>
+</head>
+<body class="contacto">
+    <div class="container-main">
+        <div class="header" id="top">
+            <h1>página de contacto</h1>
+        </div>
+    </div>
+    <div class="container-form">
+        <form action="success.html" method="POST">
+            <h3>¿de donde sos?</h3>
+            <select name="ubicacion" id="ubicacion">
+                <option value=""></option>
+                <option value="cap">buenos aires</option>
+                <option value="cor">córdoba</option>
+                <option value="otros">otro lugar</option>
+            </select>
+            <h3>¿que te pareció la iluminación?</h3>
+            <input type="checkbox" name="ilum" id="muyAcorde" value="muyAcorde"><label for="muyAcorde">muy acorde</label><br>
+            <input type="checkbox" name="ilum" id="buena" value="buena"><label for="buena">buena, pero podría mejorar</label><br>
+            <input type="checkbox" name="ilum" id="mala" value="mala"><label for="mala">mala</label><br>
+            <h3>¿que tipo de plato fue el que mas te gustó?</h3>
+            <input type="checkbox" name="best" value="entrada"><label for="entrada">entrada: </label><br>
+            <input type="checkbox" name="best" id="platoPrincipal" value="platoPrincipal"><label for="platoPrincipal">plato principal: </label><br>
+            <input type="checkbox" name="best" id="postre" value="postre"><label for="postre">postre: </label><br>
+            <input type="checkbox" name="best" id="otros" value="otros"><label for="otros">otros: </label><br>
+            <h3>¿recomendarías el lugar?</h3>
+            <input type="radio" name="recomienda" id="y" value="y"><label for="y">si </label>
+            <input type="radio" name="recomienda" id="n" value="n"><label for="n">no </label>
+            <h3>¿por que?</h3>
+            <textarea name="porQue" id="porQue" cols="60" rows="10"></textarea>
+            <h3>dejanos tus datos y nos pondremos en contacto con vos</h3>
+            <p>
+                <label for="name">nombre: </label>
+                <input type="text" name="name" aria-placeholder="nombre">
+            </p>
+            <p>
+                <label for="email">e-mail: </label>
+                <input type="email" name="e-mail" aria-placeholder="email">
+            </p>
+            <p>
+                <button class="submit" type="submit" value="enviar">enviar</button>
+                <button class="reset" type="reset" value="reset">reset</button>
+            </p>
+        </form>
+    </div>
+    <div class="container">
+        <div class="footer">
+            <ul>
+                <li class="footerList contacto"><a class="footerList" href="index.html">menu</a></li>
+                <li></li>
+                <li class="footerList"><a class="footerList" href="https://www.facebook.com/">facebook</a></li>
+                <li class="footerList"><a class="footerList" href="https://www.twitter.com/">twitter</a></li>
+                <li class="footerList"><a class="footerList" href="https://www.instagram.com/">instagram</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
