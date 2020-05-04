@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+body{
+    background-image: url('../img/bg-2.png');
+    font-family: 'Noto Serif', serif;
+    margin: 0 auto;
+    width: 960px;
+}
+
+
+img.logo{
+    position: absolute;
+    margin: -23px -50px;
+}
+
+nav{
+    background-color: #E74C3C;
+    display: flex;
+    width: 960px;
+    height: 70px;
+    margin-top: 50px;
+}
+
+.main-nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 10%;
+}
+
+.main-nav ul{
+    width: 50%;
+    padding-top: 7px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+
+article.producto{
+    display: flex;
+    flex-direction: column;
+}
+
+.flag{
+    width: 20%;
+    margin-top: -57.5%;
+    margin-left: 70%;
+}
+
+.name{
+    text-align: center;
+    background-color: white;
+    opacity: 0.6;
+    margin-bottom: 10%;
+}
+
+.more{
+    width: 30%;
+    font-size: 0.8em;
+    text-align: center;
+    background-color: #E74C3C;
+    margin-bottom: 20%;
+    margin-left: 30%;
+}
