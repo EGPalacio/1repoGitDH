@@ -1,0 +1,16 @@
+<%- include('./partials/header') %>
+
+    <h1>Contenido JSON <%= title %> </h1>
+    <h3><a href="/">Volver al Home</a></h3>
+    <% for (var i=0; i < jasonParse.length; i++) { %>
+    <ul>
+        <li>id: <%= jasonParse[i].id %></li>
+        <li>Nombre: <%= jasonParse[i].nombre %></li>
+        <li>Profesion: <%= jasonParse[i].profesion %></li>
+        <li>Pais: <%= jasonParse[i].pais %></li>
+        <li>Reseña: <%= jasonParse[i].resenia %></li>
+    </ul>
+    <% } %>
+
+</body>
+</html>

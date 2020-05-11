@@ -1,0 +1,22 @@
+<%- include('./partials/header') %>
+
+<h1>biografía</h1>
+
+<% let item = parseInt(id) - 1 %>
+<% if (parseInt(id) < jasonParse.length && ok == 'ok') { %>
+  <ul>
+    <li> <%= jasonParse[item].nombre %> </li>
+    <li> <%= jasonParse[item].resenia %> </li>
+</ul>
+<% } else if (parseInt(id) < jasonParse.length) { %>
+  <ul>
+    <li> <%= jasonParse[item].nombre %> </li>
+</ul>
+<% } else { %>
+  <h3> No encontramos un heroe para mostrarte su biografía </h3>
+<% } %>
+
+<h3><a href="/">Volver al Home</a></h3>
+
+  </body>
+</html>
