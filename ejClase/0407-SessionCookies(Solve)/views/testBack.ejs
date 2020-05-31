@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= tittle %></title>
+</head>
+    <% if(background){ %>
+        <body style="background-color: <%= background %>">
+        <h1>Elegiste el color <%= background %></h1>
+    <% } else { %>
+        <body>
+    <% }; %>
+    <body>
+    <h2>app test session y cookies</h2><br>
+    <form action="/session" method="POST">
+        <label for="background">Estilo de Fondo</label>
+        <select name="background" id="">
+            <% for (let color in colors){ %>
+                <option value="<%= colors[color] %>"><%= color %></option>
+            <% } %>
+        </select> <br>
+        <p></p>
+        <label for="recordar">recordar estilo</label>
+        <input type="checkbox" name="recordar" id="">
+        <p></p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
