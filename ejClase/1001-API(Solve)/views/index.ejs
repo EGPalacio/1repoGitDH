@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <link rel='stylesheet' href='/css/style.css' />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/moviesList.js"></script>
+</head>
+
+<body>
+    <h1>Accesos</h1>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/movies">Entrar al sitio</a></li>
+        <p>API</p>
+        <ul class="apiOptions">
+            <li><button id="apiList">Listado de Películas</button></li>
+            <li><button id="apiDetail">Detalle Pelicula</button></li> 
+        </ul>
+    </ul><br><br>
+    <div>
+        <h2>Results</h2>
+        <p class="apiResult">test</p>
+    </div>
+</body>
+
+</html>

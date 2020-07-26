@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link rel='stylesheet' href='/css/style.css' />
+</head>
+
+<body>
+    <h1>detalle de la película seleccionada</h1>
+    <h2>
+        <%= movie.title %>
+    </h2>
+
+    <ul>
+        <li>
+            <%= `Rating: ${movie.rating}` %>
+        </li>
+        <li>
+            <%= `Premios : ${movie.awards}` %>
+        </li>
+        <li>
+            <%= `Duración :${movie.length}` %>
+        </li>
+        <li>
+            <%= `Fecha de estreno: ${movie.release_date}` %>
+        </li>
+    </ul>
+    <form action="" method="POST">
+        <button value="edit">MODIFICAR</button>
+        <button value="delete">BORRAR</button>
+    </form>
+
+    <a href="/movies">volver al listado</a>
+
+</body>
+
+</html>

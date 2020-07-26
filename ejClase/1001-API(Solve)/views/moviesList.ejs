@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>
+        <%= tag %>
+    </title>
+    <link rel='stylesheet' href='/css/style.css' />
+</head>
+
+<body>
+    <h1>
+        <%= title %>
+    </h1>
+
+    <form action="/movies/search" method="POST">
+        <input type="text" name="search">
+        <button type="submit">Enviar</button>
+    </form>
+
+    <a href="/movies/recomended">Recomendadas</a>
+    <a href="/movies/new">Estrenos</a>
+
+    <% for (let movie of movies){ %>
+        <ul>
+            <li>
+                <a href="movies/detail/<%= movie.id %>">
+                    <%= movie.title %>
+                </a>
+
+            </li>
+        </ul>
+        <% } %>
+
+            <a href="/movies">volver al listado</a>
+</body>
+
+</html>
